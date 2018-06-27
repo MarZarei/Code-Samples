@@ -43,13 +43,14 @@ def partition(inputList,startIndex,endIndex):
    inputList[startIndex] = inputList[rightmark]
    inputList[rightmark] = temp
 
-
    return rightmark
 
-#Array
-unorderedList = [39.8,111,12,12,76,95,62,9,14.3,25,134,0,89]
 
 #testing the algorithm
+
+#Array
+unorderedList = [39.8,111,-3,12,12,76,95,-14,62,9,14.3,25,-7.35,134,0,89]
+
 print ("Array before sorting:")
 print (unorderedList)
 print ("Array after sorting:")
