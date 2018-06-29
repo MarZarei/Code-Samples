@@ -48,11 +48,18 @@ def partition(inputList,startIndex,endIndex):
 
 #testing the algorithm
 
-#Array
-unorderedList = [39.8,111,-3,12,12,76,95,-14,62,9,14.3,25,-7.35,134,0,89]
+#Arrays
+FirstList = [39.8,111,-3,12,12,76,95,-14,62,9,14.3,25,-7.35,134,0,89]
+SecondList = [17,1,-0.45,314,17,34,-15,80.55,202,100,80.50,100.029,111,235.5]
 
-print ("Array before sorting:")
-print (unorderedList)
-print ("Array after sorting:")
-quickSort(unorderedList)
-print(unorderedList)
+print ("Array List 1 before sorting:")
+print (FirstList)
+print ("Array List 1 after sorting:")
+quickSort(FirstList)
+print(FirstList)
+
+print ("Array List 2 before sorting:")
+print (SecondList)
+print ("Array List 2 after sorting:")
+quickSort(SecondList)
+print(SecondList)
